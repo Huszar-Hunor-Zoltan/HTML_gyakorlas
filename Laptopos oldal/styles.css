@@ -1,0 +1,14 @@
+body {
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711);
+    background-size: cover;
+}
+div.Termék_Oszlop {
+    background-color: rgb(211, 211, 211, 0.9);
+    max-width: 750px;
+    margin: auto;
+    border-radius: 70px;
+}
+table.Termék_Táblázat {
+    border: 5px solid black;
+    border-collapse: collapse;
+}

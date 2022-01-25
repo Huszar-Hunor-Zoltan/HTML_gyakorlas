@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="utf-8">
+        <title>HTML alapok</title>
+        <style>
+            #masodiktablazat td {
+                border: 5px solid black;
+                border-collapse: collapse;
+                width: 100px;
+                height: 45px;
+            }
+            tr {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="teteje">HTML alapok</h1>
+        <ul>
+            <li><a href="#címsor">Címsor</li>
+            <li><a href="#bekezdések">Bekezdések</a></li>
+            <li><a href="#felsorolás">Felsorolás</a></li>
+            <li><a href="#táblázat">Táblázat</a></li>
+            <li><a href="#képek">Képek</a></li>
+            <li><a href="/HTML Alapok/feladat1.html"></a></li>
+        </ul>
+        <h2 id="cimsor">Címsor 2</h2>
+        <h3>Címsor 3</h3>
+        <h4>Címsor 4</h4>
+        <h2 id="bekezdések">Bekezdések</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel neque ac dui cursus vestibulum non et nunc. Fusce magna diam, ornare elementum lacus vel, suscipit sagittis justo. <br>Mauris placerat neque sed nisl efficitur, id imperdiet dui facilisis. In iaculis ut ex id suscipit. Aliquam malesuada blandit porta. Sed a felis justo. Phasellus et leo neque. Suspendisse id velit lacinia, mattis elit vitae, iaculis libero. Mauris dignissim nulla sed consectetur vehicula. <br>Phasellus vitae mauris et erat facilisis iaculis quis quis urna. Aenean ac libero euismod, tempor nisi id, tristique odio. Aenean ac leo volutpat nisi volutpat condimentum aliquet aliquam tortor. Suspendisse a sollicitudin odio, non iaculis nibh. Fusce nibh arcu, ullamcorper eu enim sit amet, tincidunt egestas odio. Vivamus mattis faucibus arcu eget vehicula.
+        </p>
+        <hr>
+        <p>
+            Ut egestas ultricies cursus. Maecenas et felis et dui suscipit scelerisque quis quis mauris. Nulla facilisi. Donec mollis scelerisque pretium. Vivamus consectetur dolor non nunc gravida, a scelerisque tortor ornare. Duis lacus ex, ullamcorper mollis velit quis, pellentesque mattis massa. Aliquam imperdiet elementum ullamcorper. Etiam eu tortor ac magna tempor interdum eu a arcu. Mauris maximus tellus dolor, quis facilisis nisl scelerisque at. Donec imperdiet nec diam vitae efficitur. Curabitur eget magna est.
+        </p>
+        <hr>
+        <p>
+            Vivamus non augue lectus. Etiam justo nibh, hendrerit lacinia ultrices sed, pharetra vel odio. Suspendisse feugiat erat id auctor porta. Vivamus eu vehicula sapien. Nullam sit amet lectus iaculis, convallis urna non, ullamcorper risus. Nunc vel dictum tortor, vitae posuere nisl. Duis sit amet massa eget neque mollis pharetra. Sed ultricies turpis gravida mollis tempus. Vivamus est mauris, tincidunt eget malesuada in, aliquam vel mauris. Donec ultrices pellentesque condimentum. Nunc nisl metus, tempus bibendum commodo ac, volutpat eu augue. Donec ullamcorper hendrerit risus, vitae feugiat dolor facilisis eu.
+        </p>
+        <h2 id="felsorolás">Felsorolás</h2>
+            <h3>Szimbólumos felsorolás</h3>
+                <ul type="circle">
+                    <li>szimbólumos 1</li>
+                    <li>szimbólumos 2</li>
+                    <li>szimbólumos 3</li>
+                    <li>szimbólumos 4</li>
+                </ul>
+            <h3>Számozott felsorolás</h3>
+                <ol type="a">
+                    <li>számozott 1</li>
+                    <li>számozott 2</li>
+                    <li>számozott 3</li>
+                    <li>számozott 4</li>
+                    <li>számozott 5</li>
+                </ol>
+            <h3>Vegyes, egymásba ágyazott felsorolás</h3>
+            <ol>
+                <li>Húsleves</li>                
+                <ul>
+                    <li>Hús</li>
+                    <li>Zöldség</li>
+                    <li>fűszer</li>
+                    <li>tészta</li>
+                </ul>
+                <li>Pörkölt</li>
+                <ul>
+                    <li>hagyma</li>
+                    <li>olaj/zsír</li>
+                    <li>lecsó alap</li>
+                    <li>hús</li>
+                    <li>fűszer</li>
+                </ul>
+            </ol>
+
+        <h2 id="táblázat">Táblázat</h2>
+        <table id="tablazat" border="5">
+            <tr>
+                <td colspan="3">1.sor 1.oszlop</td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="2">2.sor 1.oszlop</td>
+                <td rowspan="2">2.sor 3.oszlop</td>
+            </tr>
+            <tr>
+                
+            </tr>
+        </table>
+        <hr>
+            <table id="masodiktablazat" style="border-collapse: collapse">
+                <tr>
+                    <td>A</td>
+                    <td colspan="3">B</td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td>C</td>
+                    <td>D</td>
+                    <td>E</td>
+                    <td rowspan="3">I</td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td colspan="2" rowspan="2">F</td>
+                    <td>G</td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td>H</td>
+                </tr>
+            </table>
+        <h2 id="képek">Képek</h2>
+            <a href="../Képek/alma.jpg" target="_blank">
+                <img src="../Képek/alma.jpg" width="200" alt="Alma kép" title="Alma">
+            </a>
+            <img src="../Képek/korte.png" height="200" alt="Alma kép" title="Alma">
+        <h2>Hivatkozások</h2>
+            <p>
+                <a href="https://google.com" target="_blank">GOOGLE</a>
+            </p>
+            <p>
+                <a href="#teteje">Ugrás a lap tetejére</a>
+            </p>
+            <p>
+                <a href="https://krunker.io" target="_blank">krunker</a>
+            </p>
+    </body>
+</html>
